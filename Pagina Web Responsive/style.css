@@ -1,0 +1,178 @@
+@font-face {
+    font-family: 'Chicago';
+    src: url(ChicagoFLF.ttf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Patrick+Hand&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+body{
+    background-color: rgb(59, 64, 74);
+    color: rgb(254, 247, 230);
+    font-family: "Kode Mono", monospace;
+    font-size: medium;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.navbar{
+    font-family: 'Chicago';
+    font-size: medium;
+}
+.nav-item a:hover{
+    color: rgb(194, 171, 142);
+}
+h1{
+    font-weight: bolder;
+    color: rgb(228, 155, 155);
+    padding-top: 10px;
+    padding-bottom: 0.5%;
+}
+h2{
+    font-family: 'Chicago';
+    font-size: large;
+    padding-top: 75px;
+    padding-bottom: 10px;
+}
+h3{
+    font-family: 'Chicago';
+    text-align: center;
+    font-size: medium;
+    padding-top: 75px;
+    padding-bottom: 10px;
+}
+p{
+    text-align: justify;
+}
+.card{
+    background-color: rgb(41, 45, 49);
+    color: rgb(163, 169, 185);
+    width: 250px;
+    font-size: small;
+    border-style: inset;
+    border-color: rgb(99, 101, 131);
+    border-width: 3px;
+}
+.main-page{
+    padding-top: 100px;
+    text-align: center;
+}
+.main-image{
+    height: 360px;
+    border-style: ridge;
+    border-color: rgb(180, 108, 108);
+    border-radius: 1%;
+    border-width: 5px;
+}
+.logo{
+    background-image: url("img/logo.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+    border-style: groove;
+    border-radius: 10%;
+    border-color: rgb(184, 137, 79);
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.logo:hover{
+    background-image: url("img/logo_hover.jpg");
+    border-color: rgb(98, 122, 138);
+}
+.richard{
+    background-image: url("img/richard.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 245px;
+    height: 300px;  
+    border-style: outset;
+    border-radius: 5%;
+    border-color: rgb(91, 110, 124);
+}
+.richard:hover{
+    background-image: url("img/richard_hover.jpg");
+    border-color: rgb(180, 118, 113);
+}
+.spect{
+    background-image: url("img/spectogram.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 320px;
+    height: 215px;
+    border-style: ridge;
+    border-radius: 1%;
+    border-color: rgb(5, 14, 46);
+    color: rgb(84, 93, 105);
+}
+.spect:hover{
+    background-image: url("img/spectogram_hover.png");
+    color: rgb(187, 112, 69);
+    font-weight: bolder;
+}
+.footer{
+    font-family: "Chicago";
+    color: rgb(214, 195, 153);
+    text-align: center;
+    font-size: small;
+    padding-bottom: 1.25%;
+}
+.link{
+    color: rgb(184, 137, 79);
+}
+.link:hover{
+    color: rgb(214, 148, 67);
+}
+.row{
+    padding-top: 10px;
+}
+
+.panel {
+    background-color: #373d49;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    width: 400px;
+    margin: 0 auto;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #f0f0f0;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    border: 1px solid #363a47;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #343a46;
+    color: #f0f0f0;
+}
+textarea {
+    resize: vertical;
+}
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #445477;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #354a79;
+}
+#resultado {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #42454e;
+    border-radius: 4px;
+    background-color: #3d4350;
+    color: #f0f0f0;
+}
